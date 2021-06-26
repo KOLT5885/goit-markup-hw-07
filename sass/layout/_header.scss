@@ -54,15 +54,6 @@
   }
 }
 
-.site-list__link--current {
-  position: relative;
-  color: $accent-color;
-  &::after {
-    opacity: 1;
-    transform: scalex(1);
-  }
-}
-
 .site-list__link {
   &::after {
     position: absolute;
@@ -87,6 +78,15 @@
   &:hover::after,
   &:focus::after,
   &:active::after {
+    opacity: 1;
+    transform: scalex(1);
+  }
+}
+
+.site-list__link--current {
+  position: relative;
+  color: $accent-color;
+  &::after {
     opacity: 1;
     transform: scalex(1);
   }
