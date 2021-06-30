@@ -111,6 +111,9 @@
   padding-left: 16px;
   margin-top: 4px;
 
+  border: 1px solid $modal-border-input;
+  border-radius: 4px;
+
   transition: border $transition-duration $transition-timing-function;
 
   &:focus {
